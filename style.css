@@ -2,7 +2,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2vw;
     background-color: whitesmoke;
-}
+}*/
 li{
     margin-top: 5vh;
     min-width: fit-content;
@@ -14,7 +14,7 @@ li{
     background-color: white;
 
     
-}*/
+}
 #ul{
     display: grid;
     grid-template-columns: auto auto auto auto;
