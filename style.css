@@ -32,7 +32,7 @@ header{
     background-color: rgb(4, 4, 97);
     color: white;
 }
-/*
+
 button{
     background-color: rgb(17, 17, 231);
     border-radius: 5%;
@@ -44,6 +44,7 @@ button:hover{
     background-color: black;
     box-shadow: 0.2vw 0.2vw 0.2em blue;
 }
+/*
 .stars{
     font-size: 1.9vw;
     color: rgb(78, 78, 207);
