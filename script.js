@@ -16,20 +16,20 @@ document.addEventListener('DOMContentLoaded', function(event) {
         });
     })
 
-    //    document.getElementsByClassName('order').forEach(addEventListener('click', function(e) {
-    //     e.preventDefault()
-    //     if (document.getElementById('p').innerHTML === 'paragraph') {
-    //         document.getElementById('p').innerHTML = 'I will share the link next time'
-    //         document.getElementById('p').style.color ='blue'
+       document.getElementsByClassName('order').forEach(addEventListener('click', function(e) {
+        e.preventDefault()
+        if (document.getElementById('p').innerHTML === 'paragraph') {
+            document.getElementById('p').innerHTML = 'I will share the link next time'
+            document.getElementById('p').style.color ='blue'
 
             
-    //     } else if(document.getElementById('p').innerHTML === 'I will share the link next time'){
-    //         document.getElementById('p').innerHTML = 'paragraph'
-    //         document.getElementById('p').style.color ='red'
-    //     }
+        } else if(document.getElementById('p').innerHTML === 'I will share the link next time'){
+            document.getElementById('p').innerHTML = 'paragraph'
+            document.getElementById('p').style.color ='red'
+        }
            
-    //        console.log(event.target.value)
-    //    }))
+           console.log(event.target.value)
+       }))
 
     //    document.getElementById('select').addEventListener('change', function (e) {
     //     e.preventDefault()
