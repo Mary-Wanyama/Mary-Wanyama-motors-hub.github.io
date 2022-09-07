@@ -31,16 +31,16 @@ document.addEventListener('DOMContentLoaded', function(event) {
            console.log(event.target.value)
        }))
 
-    //    document.getElementById('select').addEventListener('change', function (e) {
-    //     e.preventDefault()
-    //     let pick = document.getElementById('select').value
-    //     if (document.getElementsByTagName('h4').innerHTML[0] = pick) {
+       document.getElementById('select').addEventListener('change', function (e) {
+        e.preventDefault()
+        let pick = document.getElementById('select').value
+        if (document.getElementsByTagName('h4').innerHTML[0] = pick) {
 
-    //     } 
-    //     else {
+        } 
+        else {
             
-    //     }
-    //    })
+        }
+       })
 
 })
 
