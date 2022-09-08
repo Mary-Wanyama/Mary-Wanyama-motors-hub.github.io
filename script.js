@@ -42,7 +42,19 @@ document.addEventListener('DOMContentLoaded', function(event) {
             
     //     }
     //    })
-
+       const form = document.querySelector('#form')
+       form.addEventListener('submit', function(e) {
+            e.preventDefault()
+            
+            const cars = new FormData(form)
+            console.log([...cars])
+            fetch('http://localhost:3000/cars', {
+                method : 'POST',
+                body : cars
+            })
+            .then(res => res.json())
+            .then(data => console.log(data))
+       })
 
 })
 
