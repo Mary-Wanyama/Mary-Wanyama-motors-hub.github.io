@@ -1,18 +1,21 @@
-### Project Author: 
-#### Mary-Wanyama-motors-hub.github.io
- _~~Contact information : immaculatemariah@gmail.com ~~_
-___
-### Project Name:
-#### Motors-Hub
-___
-#### Description
-This project is made to display different types of cars. It allows users to contribute on the cars as well rate the ones that are in the page. It uses both the public api and a local json file to display data and accept posts.
-#### setup
-To set up the project in your machine;
-1. you will have to install the json server by running the command, '' in the terminal.
-2. Navigate inside the project folder and  run the command, 'json-server --watch db.json'
-3. This command will keep the server running. This will enable the user to use the http request and responses with this project.
-4. Throught that interaction, the page becomes more fun and interactive. 
-___
-
-This project is distributed under the license, _~~GNU GENERAL PUBLIC LICENSE.~~_ Therefore the project can be copied and distributed by anyone but it should not be changed. The licence file has more information. 
+# Mary-Wanyama-notors-hub.github.io
+This project is made to display different types of cars. It allows users to contribute on the cars as well view the ones that are in the page. It uses both the public api and a local server to display data and accept posts.
+## Installation 
+The project utilizes external public APIs that dont require a key. It also use a local server that requres installation and running. 
+To install, run the following command in the terminal ''
+To run the server, run the following command '' 
+so as to use the system.
+## Usage 
+The website can help you in identifying some of the best cars in the world as well as saving your own car data using the local host.
+## Contributing
+You are allowed to make pull requests on the projects for minor changes. For major changes however, make sure you open and issue to 
+let me know of the changes you intend to make.
+Please try to perserve the project
+## License
+GNU GENERAL PUBLIC LICENSE
+more information is provided of the licence file.
+## The Author
+Mary wanyama
+#### Contact information
+mary.wanyama@student.moringaschool.com
+### project link
